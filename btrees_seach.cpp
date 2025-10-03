@@ -14,5 +14,5 @@ TreeNode*search(TreeNode* x , int k){
         return x;
     }
     if(leaf) return nullptr;
-    return search(x->child , k);
+    return search(x->child[i] , k);
 }
